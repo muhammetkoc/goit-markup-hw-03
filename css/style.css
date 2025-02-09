@@ -253,13 +253,11 @@ menu:active{
     letter-spacing: 0.02em;
 }
 /*FOOTER*/
-.section-footer{
-    padding: 120px 0;
-}
 .footer{
     background-color: #2E2F42;
     font-family: "Raleway",sans-serif;
     letter-spacing: 17.33;
+    padding: 100px 0;
 }
 .footer-information{
     width: 264px;
