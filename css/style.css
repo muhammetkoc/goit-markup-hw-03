@@ -131,6 +131,8 @@ menu:active{
     max-width: 496px;
 }
 .blue_button{
+    display: block;
+    margin: 0 auto;
     font-family: "Roboto", sans-serif;
     text-align: center;
     letter-spacing: 0.04em;
@@ -154,6 +156,9 @@ menu:active{
 }
 
 /*ABOUT US*/
+.visually-hidden{
+    display: none;
+}
 .about_us{
     display: flex;
     margin-right: 24px;
