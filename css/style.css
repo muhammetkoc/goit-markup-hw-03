@@ -51,6 +51,7 @@ ol, ul  {
 .container{
     width: 1158px;
     margin: 0 auto;
+    flex-direction: column;
 }
 /*header*/
 .header{
@@ -60,11 +61,12 @@ ol, ul  {
     display: flex;
     padding: 0 15px;
 }
+/*
 .header-section > .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+}*/
 .menu-nav{
     display: flex;
     align-items: center;
@@ -136,10 +138,12 @@ menu:active{
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin: 0 auto;
 }
 .blue_button{
     display: block;
     margin: 0 auto;
+    margin-top:48px;
     font-family: "Roboto", sans-serif;
     text-align: center;
     letter-spacing: 0.04em;
@@ -254,28 +258,24 @@ menu:active{
 
 /*OUR PORTFOLIO*/
 .our_portfolio{
-    text-align: center;
     padding : 120px 0;
 }
 .portfolio-list{
     display: flex;
     flex-wrap:wrap;
-    text-align: left;
     column-gap: 24px;
     row-gap:48px;
 }
 .portfolio-list-item{
     background-color: #ffffff;
-    margin-top:48px;
-    margin-right: 24px;
-    border-bottom:1px solid #E7E9FC;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .portfolio-box{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top:none;
     margin-bottom:8px;
+    
 }
 .portfolio-title{
     line-height: 1.11;
@@ -283,6 +283,7 @@ menu:active{
     color:#2e2f42;
     letter-spacing: 0.02em;
     margin-bottom:72px;
+    text-align: center;
 }
 .portfolio-sub-title{
     font-weight: 500;
