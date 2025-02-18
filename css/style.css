@@ -35,8 +35,6 @@ h3{
     font-weight: medium;
     font-size:20px;
 }
-button{
-}
 a{
     font-size:12px;
     text-decoration: underline;
@@ -156,6 +154,9 @@ menu:active{
 }
 
 /*ABOUT US*/
+.about-us-section{
+    padding: 120px 0;
+}
 .visually-hidden{
     display: none;
 }
@@ -163,6 +164,7 @@ menu:active{
     display: flex;
     margin-right: 24px;
     margin-top: 72px;
+    gap:24px;
 }
 .about-us-title{
     line-height: 1.11;
@@ -176,17 +178,20 @@ menu:active{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom:8px;
 }
 .about_us_content{
     letter-spacing: 0.02em;
 }
 
 .about_us  li{
+    width: calc((100% - 72px) / 4);
 }
 
 /*OUR TEAM*/
 .our_team-section{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .our_team_title{
     line-height: 1.11;
@@ -194,6 +199,7 @@ menu:active{
     text-transform: capitalize;
     color: #2e2f42;
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
 }
 .our-team{
     display: flex;
@@ -216,10 +222,16 @@ menu:active{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom:8px;
+}
+.our-team-box{
+    padding : 32px 0;
 }
 .our_team_content{
     font-size: 16px;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .our_team ul {
     list-style: none outside none;
