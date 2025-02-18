@@ -64,6 +64,10 @@ ol, ul  {
     align-items: center;
     justify-content: space-between;
 }
+.menu-nav{
+    display: flex;
+    align-items: center;
+}
 .header-logo{
     font-family: "Raleway",sans-serif;
     font-size:18px;
@@ -73,6 +77,7 @@ ol, ul  {
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
+    margin-right: 76px;
     
 }
 .header_logo_second{
@@ -81,6 +86,9 @@ ol, ul  {
 .menu{
     display: flex;
     gap: 40px;
+}
+.menu-list-item{
+    padding: 24px 0;
 }
 .menu-list{
     display: block;
@@ -253,7 +261,7 @@ menu:active{
     flex-wrap:wrap;
     text-align: left;
     column-gap: 24px;
-    row-gap:24px;
+    row-gap:48px;
 }
 .portfolio-list-item{
     background-color: #ffffff;
