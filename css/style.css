@@ -173,13 +173,13 @@ menu:active{
 }
 .visually-hidden{
     position: absolute;
+    white-space: nowrap;
     width: 1px;
     height: 1px;
-    margin: -1px;
+    overflow: hidden;
     border: 0;
     padding: 0;
-    white-space: nowrap;
-    overflow: hidden;
+    margin: -1px;
 }
 .about_us{
     display: flex;
