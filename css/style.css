@@ -173,13 +173,13 @@ menu:active{
 }
 .visually-hidden{
     position: absolute;
-    white-space: nowrap;
     width: 1px;
     height: 1px;
-    overflow: hidden;
-    border: 0;
     padding: 0;
     margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 .about_us{
     display: flex;
@@ -231,7 +231,6 @@ menu:active{
 }
 .our_team_list{
     background-color: #FFFFFF;
-    margin-right: 24px;
     text-align: center;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
@@ -278,6 +277,7 @@ menu:active{
     row-gap:48px;
 }
 .portfolio-list-item{
+    flex: 1;
     background-color: #ffffff;
     flex-basis: calc((100% - 72px) / 4);
 }
@@ -301,6 +301,7 @@ menu:active{
     line-height: 1.2;
     color: #2e2f42;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .portfolio-content{
     letter-spacing: 0.02em;
