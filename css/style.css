@@ -226,7 +226,7 @@ menu:active{
     display: flex;
     flex-wrap:wrap;
     margin-top: 72px;
-    padding-right: 24px;
+    gap: 24px;
     
 }
 .our_team_list{
